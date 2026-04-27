@@ -1,4 +1,4 @@
-from bunny_sort.app import main
+from piccat.app import main
 
 
 if __name__ == "__main__":

@@ -102,7 +102,7 @@ class RuleDialog(QDialog):
 class MainWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
-        self.setWindowTitle("Bunny Sort")
+        self.setWindowTitle("PicCat")
         self.state = load_session()
         self.shortcuts: list[QShortcut] = []
         self.preview_cache = PreviewCache(self.state.config.image_preview_cache_limit)

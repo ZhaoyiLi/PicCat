@@ -9,7 +9,7 @@ from .main_window import MainWindow
 
 def main() -> int:
     app = QApplication(sys.argv)
-    app.setApplicationName("Bunny Sort")
+    app.setApplicationName("PicCat")
     window = MainWindow()
     window.resize(1280, 820)
     window.show()
